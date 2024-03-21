@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930703764768",
+    "project_id": "asm-ph38422",
+    "storage_bucket": "asm-ph38422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930703764768:android:85ab80e35261ce0c8abb45",
+        "android_client_info": {
+          "package_name": "com.example.asm_ph38422"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYm65E9deaLVdW6GkvANGTt00ZQq1zQxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

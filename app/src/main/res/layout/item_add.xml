@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Car"
+        android:textSize="30sp"
+        android:textColor="#D50000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edtName_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Năm sản xuất: "
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edtNamSX_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãng: "
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edthang_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom"
+        android:layout_marginBottom="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá: "
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edtgia_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        />
+    <Button
+        android:id="@+id/btnadd_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:background="@drawable/custombutton"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/black"
+        android:textAllCaps="true"/>
+</LinearLayout>
