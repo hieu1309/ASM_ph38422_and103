@@ -6,30 +6,37 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_marginLeft="15dp"
-    android:layout_marginRight="15dp"
 
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_marginTop="-80dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:src="@drawable/logo"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Username"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:textSize="20sp"/>
     <EditText
         android:id="@+id/edtUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/custom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:hint="Nhập Username"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:text="Password"
         android:textSize="20sp"
         />
@@ -39,6 +46,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/custom"
         android:inputType="textPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:hint="Nhập Password"/>
     <Button
         android:id="@+id/btnLogin"
@@ -49,6 +58,8 @@
         android:layout_marginTop="10dp"
         app:backgroundTint="@null"
         android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:textAllCaps="true"/>
     <TextView
         android:id="@+id/txtForgot"

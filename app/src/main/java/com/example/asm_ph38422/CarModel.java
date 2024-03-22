@@ -6,6 +6,9 @@ public class CarModel {
     private int namSX;
     private String hang;
     private double gia;
+    private String url;
+
+
     public CarModel(String _id, String ten, int namSX, String hang, double gia) {
         this._id = _id;
         this.ten = ten;
@@ -13,6 +16,15 @@ public class CarModel {
         this.hang = hang;
         this.gia = gia;
     }
+
+    public CarModel(String ten, int namSX, String hang, double gia, String url) {
+        this.ten = ten;
+        this.namSX = namSX;
+        this.hang = hang;
+        this.gia = gia;
+        this.url = url;
+    }
+
     public String get_id() {
         return _id;
     }
